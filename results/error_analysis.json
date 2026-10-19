@@ -1,0 +1,99 @@
+{
+    "confusion_counts": {
+        "TP": 215,
+        "TN": 918,
+        "FP": 115,
+        "FN": 159,
+        "total_test_samples": 1407
+    },
+    "false_positives_numerical_summary": {
+        "tenure": {
+            "mean": 12.97,
+            "median": 8.0,
+            "min": 1.0,
+            "max": 50.0
+        },
+        "MonthlyCharges": {
+            "mean": 79.8,
+            "median": 81.5,
+            "min": 24.4,
+            "max": 108.9
+        },
+        "TotalCharges": {
+            "mean": 1136.76,
+            "median": 684.85,
+            "min": 24.4,
+            "max": 4849.1
+        }
+    },
+    "false_negatives_numerical_summary": {
+        "tenure": {
+            "mean": 26.04,
+            "median": 19.0,
+            "min": 1.0,
+            "max": 69.0
+        },
+        "MonthlyCharges": {
+            "mean": 66.66,
+            "median": 66.5,
+            "min": 18.85,
+            "max": 113.15
+        },
+        "TotalCharges": {
+            "mean": 2182.33,
+            "median": 1463.45,
+            "min": 18.85,
+            "max": 7856.0
+        }
+    },
+    "false_positives_categorical_distributions": {
+        "Contract": {
+            "Month-to-month": 1.0
+        },
+        "InternetService": {
+            "Fiber optic": 0.887,
+            "DSL": 0.113
+        },
+        "PaymentMethod": {
+            "Electronic check": 0.6522,
+            "Mailed check": 0.1652,
+            "Credit card (automatic)": 0.1043,
+            "Bank transfer (automatic)": 0.0783
+        },
+        "TechSupport": {
+            "No": 0.9217,
+            "Yes": 0.0783
+        },
+        "PaperlessBilling": {
+            "Yes": 0.7652,
+            "No": 0.2348
+        }
+    },
+    "false_negatives_categorical_distributions": {
+        "Contract": {
+            "Month-to-month": 0.6981,
+            "One year": 0.2516,
+            "Two year": 0.0503
+        },
+        "InternetService": {
+            "Fiber optic": 0.4465,
+            "DSL": 0.4025,
+            "No": 0.1509
+        },
+        "PaymentMethod": {
+            "Electronic check": 0.3145,
+            "Mailed check": 0.2767,
+            "Bank transfer (automatic)": 0.2579,
+            "Credit card (automatic)": 0.1509
+        },
+        "TechSupport": {
+            "No": 0.5597,
+            "Yes": 0.2893,
+            "No internet service": 0.1509
+        },
+        "PaperlessBilling": {
+            "Yes": 0.6289,
+            "No": 0.3711
+        }
+    }
+}

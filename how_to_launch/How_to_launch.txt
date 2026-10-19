@@ -1,0 +1,28 @@
+=====================================================
+HOW TO LAUNCH TELECOM CUSTOMER CHURN PREDICTOR
+=====================================================
+
+WINDOWS USERS:
+-----------------------------------------------------
+1. Open the 'windows' folder.
+2. Double-click the 'run.bat' file.
+   (The script will automatically install dependencies and launch the app)
+3. Application opens in your browser at: http://localhost:8501
+
+
+MAC / LINUX USERS:
+-----------------------------------------------------
+1. Open Terminal in the 'mac_linux' folder.
+2. Run:
+   chmod +x run.sh && ./run.sh
+3. Application opens in your browser at: http://localhost:8501
+
+
+MANUAL TERMINAL FALLBACK (ANY OS):
+-----------------------------------------------------
+From the main project root folder, execute:
+1. pip install -r requirements.txt
+2. python -m streamlit run frontend/app.py
+
+Default Browser URL: http://localhost:8501
+=====================================================

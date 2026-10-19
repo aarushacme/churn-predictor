@@ -1,0 +1,29 @@
+=====================================================
+HOW TO LAUNCH (WINDOWS)
+=====================================================
+
+PLAN A (ONE-CLICK LAUNCH - RECOMMENDED):
+-----------------------------------------------------
+Double-click the file named 'run.bat' in this folder.
+It will automatically:
+1. Verify Python is installed
+2. Install the necessary dependencies from requirements.txt
+3. Start the Streamlit frontend application
+4. Open the web interface in your browser at http://localhost:8501
+
+
+PLAN B (MANUAL TERMINAL FALLBACK):
+-----------------------------------------------------
+If double-clicking run.bat does not launch:
+1. Open Command Prompt or PowerShell in the main project root folder:
+   cd /d "path\to\project"
+
+2. Install dependencies:
+   python -m pip install -r requirements.txt
+
+3. Launch the application:
+   python -m streamlit run frontend/app.py
+
+4. Open your web browser and navigate to:
+   http://localhost:8501
+=====================================================

@@ -1,0 +1,5 @@
+Configuration,Mean CV F1,CV F1 Std,Mean CV ROC-AUC,F1 Change vs Baseline,Decision
+Baseline (Raw Features),0.5964,0.0237,0.8461,+0.0000,SELECTED (Best Mean CV F1)
+With SubscribedServiceCount Only,0.5951,0.0238,0.846,-0.0013,Not Selected
+With TenureBand Only,0.5906,0.0135,0.8485,-0.0058,Not Selected
+With Both (ServiceCount + TenureBand),0.5887,0.0119,0.8484,-0.0077,Not Selected

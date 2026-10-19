@@ -1,0 +1,6 @@
+Model,Accuracy,Precision,Recall,F1-Score,ROC-AUC,CV_F1_mean,CV_F1_std,CV_Recall,CV_ROC_AUC
+Dummy (Majority) (Untuned),0.7342,0.0,0.0,0.0,0.5,0.0,0.0,0.0,0.5
+Logistic Regression (Untuned),0.8053,0.6515,0.5749,0.6108,0.8361,0.5964,0.0237,0.5465,0.8461
+Decision Tree (Untuned),0.7164,0.4661,0.4599,0.463,0.6343,0.5105,0.0197,0.5217,0.6668
+Random Forest (Untuned),0.7882,0.6234,0.5134,0.563,0.8156,0.5573,0.0201,0.491,0.8271
+Logistic Regression (Final Tuned),0.8053,0.6515,0.5749,0.6108,0.8361,0.5964,0.0237,0.5465,0.8461

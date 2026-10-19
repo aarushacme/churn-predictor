@@ -1,0 +1,143 @@
+{
+  "num_cols": [
+    "SeniorCitizen",
+    "tenure",
+    "MonthlyCharges",
+    "TotalCharges"
+  ],
+  "scaler_mean": [
+    0.16177777777777777,
+    32.562311111111114,
+    64.99931555555555,
+    2301.83952
+  ],
+  "scaler_scale": [
+    0.3682468308011104,
+    24.5402396436929,
+    30.105965373777526,
+    2275.383801039277
+  ],
+  "cat_cols": [
+    "gender",
+    "Partner",
+    "Dependents",
+    "PhoneService",
+    "MultipleLines",
+    "InternetService",
+    "OnlineSecurity",
+    "OnlineBackup",
+    "DeviceProtection",
+    "TechSupport",
+    "StreamingTV",
+    "StreamingMovies",
+    "Contract",
+    "PaperlessBilling",
+    "PaymentMethod"
+  ],
+  "categories": [
+    [
+      "Female",
+      "Male"
+    ],
+    [
+      "No",
+      "Yes"
+    ],
+    [
+      "No",
+      "Yes"
+    ],
+    [
+      "No",
+      "Yes"
+    ],
+    [
+      "No",
+      "No phone service",
+      "Yes"
+    ],
+    [
+      "DSL",
+      "Fiber optic",
+      "No"
+    ],
+    [
+      "No",
+      "No internet service",
+      "Yes"
+    ],
+    [
+      "No",
+      "No internet service",
+      "Yes"
+    ],
+    [
+      "No",
+      "No internet service",
+      "Yes"
+    ],
+    [
+      "No",
+      "No internet service",
+      "Yes"
+    ],
+    [
+      "No",
+      "No internet service",
+      "Yes"
+    ],
+    [
+      "No",
+      "No internet service",
+      "Yes"
+    ],
+    [
+      "Month-to-month",
+      "One year",
+      "Two year"
+    ],
+    [
+      "No",
+      "Yes"
+    ],
+    [
+      "Bank transfer (automatic)",
+      "Credit card (automatic)",
+      "Electronic check",
+      "Mailed check"
+    ]
+  ],
+  "coef": [
+    0.07215879176461094,
+    -1.3574040558001634,
+    -0.43449664158719503,
+    0.6455077648547582,
+    -0.02408144058147231,
+    -0.02512447392634367,
+    -0.23217634760887954,
+    -0.5153368988099954,
+    -0.16862708227327208,
+    0.3627836008537267,
+    1.1074072425122705,
+    -0.16635916368977807,
+    -0.16635916368977807,
+    -0.37318741969712294,
+    -0.16635916368977807,
+    -0.129160545043633,
+    -0.16635916368977807,
+    0.07426431184593647,
+    -0.16635916368977807,
+    -0.3315783913543882,
+    -0.16635916368977807,
+    0.37240708809276724,
+    -0.16635916368977807,
+    0.344649239366186,
+    -0.7500681040108291,
+    -1.3648230112047708,
+    0.2909313589559246,
+    0.035829136872782316,
+    0.37915008063917266,
+    0.07269953379217949
+  ],
+  "intercept": -1.4270949200628908
+}

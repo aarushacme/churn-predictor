@@ -1,0 +1,28 @@
+=====================================================
+HOW TO LAUNCH (MAC / LINUX)
+=====================================================
+
+PLAN A (ONE-CLICK TERMINAL SCRIPT - RECOMMENDED):
+-----------------------------------------------------
+Open your Terminal, navigate to this folder, and run:
+  chmod +x run.sh && ./run.sh
+
+It will automatically:
+1. Verify python3 / python is available
+2. Install dependencies from requirements.txt
+3. Start the Streamlit application
+4. Open the interface at http://localhost:8501
+
+
+PLAN B (MANUAL TERMINAL FALLBACK):
+-----------------------------------------------------
+If Plan A is not used, open Terminal in the main project root:
+1. Install dependencies:
+   python3 -m pip install -r requirements.txt
+
+2. Start the Streamlit frontend:
+   python3 -m streamlit run frontend/app.py
+
+3. Open your browser and navigate to:
+   http://localhost:8501
+=====================================================

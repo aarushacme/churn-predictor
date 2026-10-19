@@ -1,0 +1,33 @@
+{
+    "selected_model": "Logistic Regression",
+    "tuned_params": {
+        "classifier__C": 1.0
+    },
+    "feature_engineering": {
+        "include_service_count": false,
+        "include_tenure_band": false
+    },
+    "numerical_cols": [
+        "SeniorCitizen",
+        "tenure",
+        "MonthlyCharges",
+        "TotalCharges"
+    ],
+    "categorical_cols": [
+        "gender",
+        "Partner",
+        "Dependents",
+        "PhoneService",
+        "MultipleLines",
+        "InternetService",
+        "OnlineSecurity",
+        "OnlineBackup",
+        "DeviceProtection",
+        "TechSupport",
+        "StreamingTV",
+        "StreamingMovies",
+        "Contract",
+        "PaperlessBilling",
+        "PaymentMethod"
+    ]
+}
